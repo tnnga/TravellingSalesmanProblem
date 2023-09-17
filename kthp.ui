@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>753</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(0, 170, 127, 0.3);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>561</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/PC/Downloads/kisspng-ukraine-ukrainian-crisis-ukrainian-soviet-socialis-wikimedia-ukraine-5b26388db19856.4154459815292315017274 (1)_preview_rev_1_preview_rev_1 (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QListView" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>80</y>
+      <width>141</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 170, 127, 0.3);
+font: 75 13pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="them">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>40</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 170, 127, 0.3);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Thêm</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>40</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 170, 127, 0.3);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>350</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 170, 127, 0.3);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>TÌM ĐƯỜNG ĐI</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 15pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>BÀI TOÁN NGƯỜI DU LỊCH - GIẢI THUẬT HILL CLIMBING</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>90</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Volyn</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>120</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Zhytomyr</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Rivne</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>140</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Kiev</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>280</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Zaporizhia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>230</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Donetsk</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>180</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Luhansk</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>160</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Kharkiv</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>110</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Sumy</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>90</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Chernihiv</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>160</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Poltava</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>300</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Kherson</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>210</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Dnlpropetrovsk</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>220</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Kirovohrad</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>270</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Mykolaiv</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>180</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Cherkasy</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>360</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Crimea</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>280</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Odessa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>170</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Khmelnytakyi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>150</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Lviv</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>200</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Vinnytaia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>200</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 6pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Ivano-Frankivak</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>170</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Ternopil</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>210</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Zakarpattia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>230</y>
+      <width>35</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 127);
+font: 75 7pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="text">
+     <string>Chernivtai</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>753</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
