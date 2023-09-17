@@ -51,7 +51,7 @@ background-color: rgba(255, 255, 255,0);</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QListView" name="listView">
+   <widget class="QListView" name="lstItem">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -67,7 +67,7 @@ color: rgb(255, 255, 255);
 </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="them">
+   <widget class="QPushButton" name="btnThem">
     <property name="geometry">
      <rect>
       <x>850</x>
@@ -232,7 +232,7 @@ color: rgb(255, 255, 255);
      </property>
     </item>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnTimDuongDi">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -726,7 +726,7 @@ background-color: rgba(255, 255, 255,0);</string>
      <string>Chernivtai</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="them_2">
+   <widget class="QPushButton" name="btnXoa">
     <property name="geometry">
      <rect>
       <x>850</x>
@@ -745,7 +745,7 @@ color: rgb(255, 255, 255);
      <string>Xóa</string>
     </property>
    </widget>
-   <widget class="QListView" name="listView_2">
+   <widget class="QListView" name="lstKetQua">
     <property name="geometry">
      <rect>
       <x>710</x>
