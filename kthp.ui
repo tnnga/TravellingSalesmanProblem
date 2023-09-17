@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>753</width>
+    <width>795</width>
     <height>435</height>
    </rect>
   </property>
@@ -45,7 +45,7 @@ background-color: rgba(255, 255, 255,0);</string>
      <enum>Qt::AutoText</enum>
     </property>
     <property name="pixmap">
-     <pixmap>C:/Users/PC/Downloads/kisspng-ukraine-ukrainian-crisis-ukrainian-soviet-socialis-wikimedia-ukraine-5b26388db19856.4154459815292315017274 (1)_preview_rev_1_preview_rev_1 (1).png</pixmap>
+     <pixmap>img.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -54,9 +54,9 @@ background-color: rgba(255, 255, 255,0);</string>
    <widget class="QListView" name="listView">
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>590</x>
       <y>80</y>
-      <width>141</width>
+      <width>191</width>
       <height>251</height>
      </rect>
     </property>
@@ -69,14 +69,14 @@ font: 75 13pt &quot;MS Shell Dlg 2&quot;;
    <widget class="QPushButton" name="them">
     <property name="geometry">
      <rect>
-      <x>690</x>
+      <x>730</x>
       <y>40</y>
       <width>51</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 170, 127, 0.3);
+     <string notr="true">background-color: rgba(0, 170, 127, 1);
 font: 75 14pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(255, 255, 255);</string>
     </property>
@@ -87,9 +87,9 @@ color: rgb(255, 255, 255);</string>
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>590</x>
       <y>40</y>
-      <width>81</width>
+      <width>131</width>
       <height>22</height>
      </rect>
     </property>
@@ -98,18 +98,148 @@ color: rgb(255, 255, 255);</string>
 font: 75 14pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(255, 255, 255);</string>
     </property>
+    <item>
+     <property name="text">
+      <string>Add</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Crimea</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donetsk</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luhansk</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kharkiv</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dnlpropetrovsk</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zaporizhia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kherson</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Odessa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mykolaiv</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kirovohrad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cherkasy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Poltava</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sumy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kiev</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chernihiv</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zhytomyr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vinnytaia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chernivtai</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Khmelnytakyi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rivne</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ternopil</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ivano-Frankivak</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zakarpattia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lviv</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Volyn</string>
+     </property>
+    </item>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>590</x>
       <y>350</y>
-      <width>141</width>
-      <height>31</height>
+      <width>131</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 170, 127, 0.3);
+     <string notr="true">background-color: rgba(0, 170, 127, 1);
 font: 75 14pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(255, 255, 255);</string>
     </property>
@@ -128,7 +258,8 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 75 15pt &quot;MS Shell Dlg 2&quot;;
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 255, 255);
+background-color: rgba(0, 170, 127,0);</string>
     </property>
     <property name="text">
      <string>BÀI TOÁN NGƯỜI DU LỊCH - GIẢI THUẬT HILL CLIMBING</string>
@@ -609,13 +740,31 @@ background-color: rgba(255, 255, 255,0);</string>
      <string>Chernivtai</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="them_2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>350</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 170, 127, 1);
+font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Xóa</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>753</width>
+     <width>795</width>
      <height>18</height>
     </rect>
    </property>
