@@ -7,7 +7,7 @@
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 from PyQt6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QComboBox, QPushButton, QListWidget, QListWidgetItem
-
+import tkinter as tk
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -375,94 +375,299 @@ class Ui_MainWindow(object):
         # label_3 -> label_28: ten bien cua cac tinh
         self.btnXoa.setText(_translate("MainWindow", "Xóa"))
         self.menuB_I_TO_N_NG_I_DU_L_CH_GI_I_THU_T_HILL_CLIMBING.setTitle(_translate("MainWindow", "GIẢI THUẬT HILL CLIMBING"))
-
+        
     def add_item_to_listview(self):
         selected_item = self.comboBox.currentText()
-        if self.comboBox.currentIndex() != 0:
-                self.lstItem.addItem(selected_item)
+    
+        item_exists = False
 
+        for i in range(self.lstItem.count()):
+                if selected_item == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists and selected_item != "":
+                self.lstItem.addItem(selected_item)
     def dele_item_to_listview(self):
         selected_item = self.lstItem.currentIndex()
         if selected_item.isValid():
             self.lstItem.model().removeRow(selected_item.row())
+
     def add_label3_text_to_listview(self, event):
         label3_text = self.label_3.text()
-        self.lstItem.addItem(label3_text)
-    def add_label3_text_to_listview(self, event):
-        label3_text = self.label_3.text()
-        self.lstItem.addItem(label3_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label3_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label3_text)
     def add_label4_text_to_listview(self, event):
         label4_text = self.label_4.text()
-        self.lstItem.addItem(label4_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label4_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label4_text)
     def add_label5_text_to_listview(self, event):
         label5_text = self.label_5.text()
-        self.lstItem.addItem(label5_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label5_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label5_text)
     def add_label6_text_to_listview(self, event):
         label6_text = self.label_6.text()
-        self.lstItem.addItem(label6_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label6_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label6_text)
     def add_label7_text_to_listview(self, event):
         label7_text = self.label_7.text()
-        self.lstItem.addItem(label7_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label7_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label7_text)
     def add_label8_text_to_listview(self, event):
         label8_text = self.label_8.text()
-        self.lstItem.addItem(label8_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label8_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label8_text)
     def add_label9_text_to_listview(self, event):
         label9_text = self.label_9.text()
-        self.lstItem.addItem(label9_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label9_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label9_text)
     def add_label10_text_to_listview(self, event):
         label10_text = self.label_10.text()
-        self.lstItem.addItem(label10_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label10_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label10_text)
     def add_label11_text_to_listview(self, event):
         label11_text = self.label_11.text()
-        self.lstItem.addItem(label11_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label11_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label11_text)
     def add_label12_text_to_listview(self, event):
         label12_text = self.label_12.text()
-        self.lstItem.addItem(label12_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label12_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label12_text)
     def add_label13_text_to_listview(self, event):
         label13_text = self.label_13.text()
-        self.lstItem.addItem(label13_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label13_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label13_text)
     def add_label14_text_to_listview(self, event):
         label14_text = self.label_14.text()
-        self.lstItem.addItem(label14_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label14_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label14_text)
     def add_label15_text_to_listview(self, event):
         label15_text = self.label_15.text()
-        self.lstItem.addItem(label15_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label15_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label15_text)
     def add_label16_text_to_listview(self, event):
         label16_text = self.label_16.text()
-        self.lstItem.addItem(label16_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label16_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label16_text)
     def add_label17_text_to_listview(self, event):
         label17_text = self.label_17.text()
-        self.lstItem.addItem(label17_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label17_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label17_text)
     def add_label18_text_to_listview(self, event):
         label18_text = self.label_18.text()
-        self.lstItem.addItem(label18_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label18_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label18_text)
     def add_label19_text_to_listview(self, event):
         label19_text = self.label_19.text()
-        self.lstItem.addItem(label19_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label19_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label19_text)
     def add_label20_text_to_listview(self, event):
         label20_text = self.label_20.text()
-        self.lstItem.addItem(label20_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label20_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label20_text)
     def add_label21_text_to_listview(self, event):
         label22_text = self.label_22.text()
-        self.lstItem.addItem(label22_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label22_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label22_text)
     def add_label22_text_to_listview(self, event):
         label23_text = self.label_23.text()
-        self.lstItem.addItem(label23_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label23_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label23_text)
     def add_label23_text_to_listview(self, event):
         label24_text = self.label_24.text()
-        self.lstItem.addItem(label24_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label24_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label24_text)
     def add_label24_text_to_listview(self, event):
         label25_text = self.label_25.text()
-        self.lstItem.addItem(label25_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label25_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label25_text)
     def add_label25_text_to_listview(self, event):
         label26_text = self.label_26.text()
-        self.lstItem.addItem(label26_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label26_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label26_text)
     def add_label26_text_to_listview(self, event):
         label27_text = self.label_27.text()
-        self.lstItem.addItem(label27_text)
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label27_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label27_text)
     def add_label27_text_to_listview(self, event):
         label28_text = self.label_28.text()
-        self.lstItem.addItem(label28_text)   
+        item_exists = False
+
+        for i in range(self.lstItem.count()):
+                if label28_text == self.lstItem.item(i).text():
+                        item_exists = True
+                        break
+
+        if not item_exists:
+                self.lstItem.addItem(label28_text)  
     def hill_climbing(self):
         # Lấy danh sách các tỉnh từ lstItem
         items = [self.lstItem.item(i).text() for i in range(self.lstItem.count())]
