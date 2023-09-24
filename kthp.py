@@ -268,7 +268,7 @@ class Ui_MainWindow(object):
 "")
         self.btnXoa.setObjectName("btnXoa")
         self.lstKetQua = QListWidget(parent=self.centralwidget)
-        self.lstKetQua.setGeometry(QtCore.QRect(710, 330, 191, 101))
+        self.lstKetQua.setGeometry(QtCore.QRect(610, 330, 291, 111))
         self.lstKetQua.setStyleSheet("background-color: rgba(0, 170, 127, 0.3);\n"
 "font: 75 12pt \"MS Shell Dlg 2\";\n"
 "color: rgb(255, 255, 255);\n"
