@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>925</width>
+    <width>940</width>
     <height>478</height>
    </rect>
   </property>
@@ -748,9 +748,9 @@ color: rgb(255, 255, 255);
    <widget class="QListView" name="lstKetQua">
     <property name="geometry">
      <rect>
-      <x>710</x>
+      <x>610</x>
       <y>330</y>
-      <width>191</width>
+      <width>291</width>
       <height>101</height>
      </rect>
     </property>
@@ -767,7 +767,7 @@ color: rgb(255, 255, 255);
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>925</width>
+     <width>940</width>
      <height>18</height>
     </rect>
    </property>
