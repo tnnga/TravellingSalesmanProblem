@@ -816,12 +816,13 @@ class Ui_MainWindow(object):
 
         # Hiển thị đường đi và khoảng cách trên lstKetQua
         self.lstKetQua.clear()
+
         self.lstKetQua.addItem("Đường đi tối ưu:")
         self.lstKetQua.addItems(path)
         total_distance = sum(
             self.calculate_distance(path[i], path[i + 1]) for i in range(len(path) - 1)
         )
-        self.lstKetQua.addItem(f"Khoảng cách: {total_distance} km")
+        self.lstKetQua.addItem(f"Khoảng cách: {total_distance} m")
 
     def calculate_distance(self, city1, city2):
         # Tọa độ của các thành phố
