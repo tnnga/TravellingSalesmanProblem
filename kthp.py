@@ -16,7 +16,7 @@ from PyQt6.QtWidgets import (
     QListWidget,
     QListWidgetItem,
 )
-import tkinter as tk
+import tkinter as tk, math
 
 
 class Ui_MainWindow(object):
@@ -824,11 +824,43 @@ class Ui_MainWindow(object):
         self.lstKetQua.addItem(f"Khoảng cách: {total_distance} km")
 
     def calculate_distance(self, city1, city2):
-        # Tính khoảng cách giữa hai tỉnh (thay thế bằng hàm tính khoảng cách thực tế)
-        # Ở đây, mình sẽ trả về một giá trị ngẫu nhiên để minh họa
-        import random
+        # Tọa độ của các thành phố
+        city_coordinates = {
+            "Volyn": (110, 70),
+            "Zhytomyr": (210, 100),
+            "Rivne": (160, 70),
+            "Kiev": (290, 130),
+            "Zaporizhia": (460, 280),
+            "Donetsk": (530, 240),
+            "Luhansk": (570, 170),
+            "Kharkiv": (490, 150),
+            "Sumy": (400, 90),
+            "Chernihiv": (330, 80),
+            "Poltava": (390, 150),
+            "Kherson": (400, 300),
+            "Dnlpropetrovsk": (420, 220),
+            "Kirovohrad": (340, 220),
+            "Mykolaiv": (330, 280),
+            "Cherkasy": (320, 180),
+            "Crimea": (420, 380),
+            "Odessa": (280, 290),
+            "Khmelnytakyi": (160, 170),
+            "Lviv": (80, 140),
+            "Vinnytaia": (230, 200),
+            "Ivano-Frankivak": (80, 200),
+            "Ternopil": (120, 170),
+            "Zakarpattia": (30, 210),
+            "Chernivtai": (120, 230)
+        }
 
-        return random.randint(50, 300)
+        # Lấy tọa độ của từng thành phố
+        x1, y1 = city_coordinates.get(city1, (0, 0))
+        x2, y2 = city_coordinates.get(city2, (0, 0))
+
+        # Tính khoảng cách Euclidean distance
+        distance = round(math.sqrt((x1 - x2)**2 + (y1 - y2)**2), 2)
+        
+        return distance
 
 
 if __name__ == "__main__":
