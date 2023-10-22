@@ -17,7 +17,10 @@ from PyQt6.QtWidgets import (
     QListWidgetItem,
 )
 import tkinter as tk, math
+<<<<<<< HEAD
 import pkg_resources
+=======
+>>>>>>> origin/master
 
 
 class Ui_MainWindow(object):
