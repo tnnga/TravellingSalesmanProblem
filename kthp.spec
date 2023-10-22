@@ -5,7 +5,7 @@ a = Analysis(
     ['kthp.py'],
     pathex=[],
     binaries=[],
-    datas=[('resources/img.png', '.')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
