@@ -823,7 +823,7 @@ class Ui_MainWindow(object):
         total_distance = sum(
             self.calculate_distance(path[i], path[i + 1]) for i in range(len(path) - 1)
         )
-        self.lstKetQua.addItem(f"Khoảng cách: {total_distance} m")
+        self.lstKetQua.addItem(f"Khoảng cách: {total_distance} km")
 
     def calculate_distance(self, city1, city2):
         # Tọa độ của các thành phố
