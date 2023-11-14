@@ -797,7 +797,7 @@ class Ui_MainWindow(object):
 
         # Tìm đường đi bằng giải thuật Hill Climbing
         while items:
-            min_distance = float("inf")
+            min_distance = float("inf") # +∞
             next_city = None
 
             for city in items:
