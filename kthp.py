@@ -17,7 +17,11 @@ from PyQt6.QtWidgets import (
     QListWidgetItem,
 )
 import tkinter as tk, math
-import pkg_resources
+import sys, os
+
+def resource_path(relative_path):
+    base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base_path, relative_path)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -38,8 +42,7 @@ class Ui_MainWindow(object):
         )
         self.label.setText("")
         self.label.setTextFormat(QtCore.Qt.TextFormat.AutoText)
-        resource_path = pkg_resources.resource_filename(__name__, 'resources/img.png')
-        self.label.setPixmap(QtGui.QPixmap(resource_path))
+        self.label.setPixmap(QtGui.QPixmap(resource_path("img.png")))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.lstItem = QListWidget(parent=self.centralwidget)
@@ -820,8 +823,8 @@ class Ui_MainWindow(object):
 
         self.lstKetQua.addItem("Đường đi tối ưu:")
         self.lstKetQua.addItems(path)
-        total_distance = sum(
-            self.calculate_distance(path[i], path[i + 1]) for i in range(len(path) - 1)
+        total_distance = round(sum(
+            self.calculate_distance(path[i], path[i + 1]) for i in range(len(path) - 1)), 2
         )
         self.lstKetQua.addItem(f"Khoảng cách: {total_distance} km")
 
