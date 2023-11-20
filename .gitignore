@@ -1,2 +1,3 @@
 # Bỏ qua push tất cả file ở trong bất kì thư mục nào tên là "build"
 build/
+dist/
